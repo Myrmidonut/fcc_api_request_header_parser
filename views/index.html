@@ -3,38 +3,51 @@
   <head>
     <title>Request Header Parser</title>
     
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="container">
-      <h2>API Project: Request Header Parser Microservice</h2>
-      
-      <h3>User Story:</h3>
+    
+    <header class="container">
+      <h1>API Project: Request Header Parser Microservice</h1>
+    </header>
+    
+    <main class="container">
+      <h2>User Story:</h2>
       <ol class="user-stories">
-        <li>I can get the <code>IP address</code>, preferred <code>languages</code> (from header <code>Accept-Language</code>) and <code>system infos</code>) (from header <code>User-Agent</code>) for my device.</li>
+        <li>I can <strong>GET</strong> the <code>IP address</code>, preferred <code>languages</code> (from header <code>Accept-Language</code>) and <code>system infos</code>) (from header <code>User-Agent</code>) for my device.</li>
       </ol>
-
+      
       <h3>Example Usage:</h3>
       <p>
-        <code>[base url]/api/whoami</code>)
+        <code>GET /api/whoami</code>
       </p>
-
+      
       <h3>Example Output:</h3>
       <p>
         <code>{"ipaddress":"::ffff:159.20.14.100","language":"en-US,en;q=0.5",<br>"software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}</code>
       </p>
-    
+      
       <hr>
       
-      <div class="footer">
-        <p>
-          by <a href="https://github.com/Myrmidonut/fcc_api_request_header_parser" title="GitHub Repository" target="_blank">Frederik</a> | <a href="https://learn.freecodecamp.org/" title="Learn to code at freeCodeCamp" target="_blank">freeCodeCamp</a>
-        </p>
+      <h2>API:</h2>
+      <div>
+        <a href="/api/whoami">Who am I?</a>
       </div>
       
-    </div>
+    </main>
+    
+    <footer class="container">
+      <hr>
+      <p>
+        by <a href="https://github.com/Myrmidonut/fcc_api_request_header_parser" title="GitHub Repository" target="_blank">Frederik</a> | <a href="https://learn.freecodecamp.org/" title="Learn to code at freeCodeCamp" target="_blank">freeCodeCamp</a>
+      </p>
+    </footer>
+    
   </body>
 </html>
