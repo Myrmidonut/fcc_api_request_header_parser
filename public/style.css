@@ -37,3 +37,7 @@ ol {
 li {
   margin-bottom: 1em;
 }
+
+h1 {
+  line-height: initial;
+}
