@@ -1,10 +1,24 @@
-# API Project: Request Header Parser Microservice for freeCodeCamp
+# Request Header Parser
 
-### User stories:
-1. I can get the IP address, preferred languages (from header `Accept-Language`) and system infos (from header `User-Agent`) for my device.
+## Introduction
+IP address, language and system information are displayed to the user.
 
-#### Example usage:
-* /api/whoami
+This project is part of freeCodeCamps API And Microservices certificate.
 
-#### Example output:
-* `{"ipaddress":"159.20.14.100","language":"en-US,en;q=0.5","software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}`
+## Project Requirements
+* The IP address, preferred languages (from header `Accept-Language`) and system infos (from header `User-Agent`) of the current device can be retrieved.
+
+## Final Project
+https://fcc-api-request-header-parser-fred.glitch.me
+
+## Behind the scenes
+### Backend:
+* Node
+* Express
+
+### Hosting:
+* Glitch
+
+## Preview Images
+### Main Screen:
+![Request Header Parser](readme_images/request-header-parser.png)
